@@ -1,8 +1,8 @@
-BlockGoo · moruk.ai.blockgoo · 8 October 2026
+BlockGoo · ai.moruk.blockgoo · 8 October 2026
 
 # BlockGoo — Privacy Policy
 
-BlockGoo is developed and provided by **Moruk LLC**. This policy applies to BlockGoo 1.0.0, package **moruk.ai.blockgoo**, effective 8 October 2026.
+BlockGoo is developed and provided by **Moruk LLC**. This policy applies to BlockGoo 1.0.0, package **ai.moruk.blockgoo**, effective 8 October 2026.
 
 BlockGoo is an offline block puzzle. It has no account system, advertisements, in-app purchases or third-party analytics in this release.
 
@@ -36,7 +36,7 @@ If the game's data practices change, this policy and the Play Store declarations
 
 ## Türkçe · Gizlilik Politikası
 
-BlockGoo, **Moruk LLC** tarafından sunulur. Bu politika 8 Ekim 2026 tarihinden itibaren BlockGoo 1.0.0 (moruk.ai.blockgoo) sürümü için geçerlidir.
+BlockGoo, **Moruk LLC** tarafından sunulur. Bu politika 8 Ekim 2026 tarihinden itibaren BlockGoo 1.0.0 (ai.moruk.blockgoo) sürümü için geçerlidir.
 
 BlockGoo çevrimdışı bir blok bulmaca oyunudur. Bu sürümde hesap, reklam, uygulama içi satın alma veya üçüncü taraf kullanım analizi bulunmaz.
 
