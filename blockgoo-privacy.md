@@ -1,55 +1,61 @@
-BlockGoo · ai.moruk.blockgoo · 8 October 2026
+BlockGoo · ai.moruk.blockgoo · 9 October 2026
 
 # BlockGoo — Privacy Policy
 
-BlockGoo is developed and provided by **Moruk LLC**. This policy applies to BlockGoo 1.0.0, package **ai.moruk.blockgoo**, effective 8 October 2026.
+BlockGoo is developed and provided by **Moruk LLC**. This policy covers package **ai.moruk.blockgoo**, including version **1.1.1** with Google Play Games Services. Version 1.0.0 stores gameplay only on your device and does not include the Google integration described below.
 
-BlockGoo is an offline block puzzle. It has no account system, advertisements, in-app purchases or third-party analytics in this release.
+You can play BlockGoo offline. The game has no advertisements or in-app purchases. It does not create a separate BlockGoo account or send your board to a developer-operated server.
 
-## Information on your device
+## Information stored on your device
 
-Your current board, score, personal best, language and sound, vibration and motion settings are stored locally so you can resume playing. These game records are not sent to us. Android cloud backup of app data is disabled for this release.
+Your board, score, personal best, language and sound, vibration and motion settings are stored locally. With Play Games enabled, the game also stores a player identifier and pending scores and achievements so it can retry interrupted submissions and keep different players' progress separate. Android cloud backup of app data is disabled. BlockGoo does not use the Play Games Saved Games feature; your board is not synchronized to Google Drive.
 
-## Network and permissions
+## Google Play Games in version 1.1.1
 
-The game does not require an internet connection. Vibration access is used only for optional placement and clearing feedback. No location, contacts, camera or microphone access is requested.
+Online rankings and achievements use Google Play Games Services. If authentication succeeds under your Google Play Games settings, Google provides your gamer identity to the game and processes submitted scores and unlocked achievements. The SDK can retrieve gamer profile information such as your player identifier, display name and avatar. We use the player identifier to associate pending progress with the correct player. Your Google password is handled by Google, not by BlockGoo.
 
-## Support messages
+Google's SDK also automatically processes usage analytics and diagnostic information to maintain and improve its services. This collection is separate from BlockGoo's local save file. BlockGoo does not add a separate advertising or developer analytics service. Online features require a network connection; authentication failure or lack of connectivity does not prevent offline play.
 
-If you choose to email support, your email app handles that message. We receive the email address and any information you choose to include. We use support correspondence to answer your request and resolve reported issues. Please do not send unnecessary sensitive information. Contact us to request deletion of support correspondence.
+Google encrypts Play Games data in transit using HTTPS. Your profile's visibility settings control whether other players can see your game activity. Consult [Google's Play Games data disclosure](https://developer.android.com/games/pgs/data-collection) and [Google's Privacy Policy](https://policies.google.com/privacy) for its processing, retention and controls.
 
-## Retention and protection
+## Permissions
 
-Local game records remain on your device until you remove them. Moruk LLC retains support correspondence only as long as needed to address your request and meet applicable legal obligations. Access is limited to people handling support. Email delivery and storage are handled by the email services used by you and Moruk LLC. We do not sell your personal information or use support correspondence for advertising. You can request deletion by emailing sport@moruk.co; any legally required retention will be explained in our response.
+Network access supports Play Games. Vibration access supports optional gameplay feedback. BlockGoo does not request location, contacts, camera, microphone or nearby-device access for its game features.
 
-## Audience
+## Removing data
 
-BlockGoo is intended for players aged 13 and over and is not directed at children under 13. The game does not ask for your age or collect personal information through gameplay. If you believe a child has provided personal information in a support message, contact us to request removal.
+Clear BlockGoo's storage in Android settings or uninstall it to remove the saved board, settings, player identifiers and pending submissions on that device. This resets your local game progress. Removing the app's local data does not itself delete scores or achievements already held by Google.
 
-## Deleting your local records
+You can delete a game's Play Games data or your Play Games profile through Google's controls. See [Google's deletion instructions](https://support.google.com/googleplay/answer/9130646). To remove unsent local progress too, clear BlockGoo's storage before reconnecting. Playing again with Play Games enabled can create new game records.
 
-You can remove game records by clearing the app's storage in Android settings or uninstalling the app. There is no online account to delete. Removing local data resets the saved board, record and settings.
+## Support messages and retention
 
-## Changes and contact
+If you email support, your email app transmits your address and whatever information you include to **sport@moruk.co**. Moruk LLC uses correspondence to answer the request and retains it only as needed for support and applicable legal obligations. Access is limited to people handling support. Do not include unnecessary sensitive information. Request deletion by emailing us; we will explain any required legal retention. We do not sell personal information or use support messages for advertising.
 
-If the game's data practices change, this policy and the Play Store declarations will be updated. For privacy or support questions, contact Moruk LLC at [sport@moruk.co](mailto:sport@moruk.co).
+## Audience and changes
+
+BlockGoo is intended for players aged 13 and over and is not directed at children under 13. If you believe a child provided personal information in a support message, contact us to request removal. Changes to these practices will be reflected in this policy and the Play Store declarations.
+
+Moruk LLC · [sport@moruk.co](mailto:sport@moruk.co)
 
 ## Türkçe · Gizlilik Politikası
 
-BlockGoo, **Moruk LLC** tarafından sunulur. Bu politika 8 Ekim 2026 tarihinden itibaren BlockGoo 1.0.0 (ai.moruk.blockgoo) sürümü için geçerlidir.
+BlockGoo, **Moruk LLC** tarafından sunulur. Bu politika **ai.moruk.blockgoo** paketini ve Google Play Oyun Hizmetleri eklenen **1.1.1** sürümünü kapsar. **1.0.0** sürümü yalnızca cihazda oyun kaydı tutar; aşağıda açıklanan Google entegrasyonu bu sürümde bulunmaz.
 
-BlockGoo çevrimdışı bir blok bulmaca oyunudur. Bu sürümde hesap, reklam, uygulama içi satın alma veya üçüncü taraf kullanım analizi bulunmaz.
+Oyun çevrimdışı oynanabilir. Reklam ve uygulama içi satın alma yoktur. Ayrı bir BlockGoo hesabı oluşturulmaz; tahtanız geliştiricinin işlettiği bir sunucuya gönderilmez.
 
-Tahtanız, puanınız, rekorunuz, dil ve ses/titreşim/hareket ayarlarınız cihazınızda saklanır. Bu oyun kayıtları bize gönderilmez. Android bulut yedeklemesi bu sürüm için kapalıdır.
+**Cihazdaki kayıtlar:** Tahta, puan, rekor, dil ve ses/titreşim/hareket ayarları yerelde saklanır. Play Oyunlar kullanılırken oyuncu kimliği ve gönderilmeyi bekleyen puan/başarı kayıtları da tutulur. Bu, kesilen gönderimleri tekrar denemek ve farklı oyuncuların kayıtlarını ayırmak içindir. Android bulut yedeklemesi kapalıdır. Tahtanız Google Drive'a veya Play Oyunlar'ın kayıtlı oyun hizmetine aktarılmaz.
 
-İsteğe bağlı titreşim dışında konum, kişiler, kamera veya mikrofon erişimi istenmez. Oyun internet gerektirmez.
+**Google Play Oyunlar:** Giriş, Google Play Oyunlar tercihleriniz kapsamında başarılı olursa Google oyuncu kimliğinizi oyuna sağlar; skor ve açılan başarı kayıtlarını işler. SDK oyuncu kimliği, görünen ad ve avatar gibi profil bilgilerini alabilir. Bekleyen kayıtları doğru oyuncuyla eşleştirmek için oyuncu kimliği kullanılır. Google şifrenizi Google işler; BlockGoo almaz.
 
-Desteğe e-posta gönderirseniz e-posta uygulamanız mesajı işler. Adresinizi ve mesajınıza eklediğiniz bilgileri destek talebinizi yanıtlamak için alırız. Gereksiz hassas bilgiler göndermeyin. Destek yazışmalarının silinmesini istemek için bize ulaşabilirsiniz.
+Google SDK'sı hizmetinin çalışması ve geliştirilmesi için kullanım analizi ve tanılama verilerini de otomatik olarak işler. BlockGoo ayrıca bir reklam veya geliştirici analiz hizmeti eklemez. İnternet ve Google girişi kullanılamadığında çevrimdışı oyun devam eder. Google verileri aktarım sırasında HTTPS ile şifreler. Diğer oyuncuların görebileceği oyun etkinliği, Google profilinizin görünürlük ayarlarına bağlıdır. Ayrıntılar için yukarıdaki Google veri açıklaması ve gizlilik bağlantılarına bakabilirsiniz.
 
-Android ayarlarında uygulama depolamasını temizleyerek veya oyunu kaldırarak yerel kayıtları silebilirsiniz. Silinecek çevrimiçi hesap yoktur. Veri uygulamaları değişirse bu metin ve mağaza beyanları güncellenir.
+**İzinler:** İnternet erişimi Play Oyunlar, isteğe bağlı titreşim oyun geri bildirimi içindir. Oyun özellikleri konum, kişiler, kamera, mikrofon veya yakındaki cihaz erişimi istemez.
 
-Yerel oyun kayıtları siz silene kadar cihazınızda kalır. Moruk LLC destek yazışmalarını yalnızca talebi çözmek ve geçerli yasal yükümlülükleri yerine getirmek için gereken süre boyunca saklar. Erişim destekle ilgilenen kişilerle sınırlıdır. E-posta iletimi ve saklanması sizin ve Moruk LLC şirketinin kullandığı e-posta hizmetleri tarafından gerçekleştirilir. Kişisel bilgileriniz satılmaz; destek yazışmaları reklam amacıyla kullanılmaz. Silme talebi için bize e-posta gönderebilirsiniz; yasal saklama gerekirse yanıtımızda açıklanır.
+**Silme:** Android ayarlarında uygulama depolamasını temizlemek veya oyunu kaldırmak, cihazdaki tahta/ayar/oyuncu kimliği/bekleyen gönderimleri siler ve yerel ilerlemeyi sıfırlar. Bu işlem Google'a önceden gönderilen puan ve başarıları kendiliğinden silmez. Google'daki oyun verisini veya Play Oyunlar profilini Google'ın silme kontrolleriyle kaldırabilirsiniz; yukarıdaki silme yönergelerine bakın. Bekleyen yerel ilerlemeyi de silmek için yeniden bağlanmadan önce BlockGoo depolamasını temizleyin. Play Oyunlar açıkken yeniden oynamak yeni kayıtlar oluşturabilir.
 
-Oyun 13 yaş ve üzerindeki oyunculara yöneliktir; 13 yaş altı çocukları hedeflemez. Oyun sırasında yaşınız sorulmaz ve kişisel bilgi toplanmaz. Bir çocuğun destek mesajında kişisel bilgi paylaştığını düşünüyorsanız silinmesi için bize ulaşabilirsiniz.
+**Destek:** sport@moruk.co adresine e-posta gönderdiğinizde adresiniz ve mesaja ekledikleriniz destek talebini yanıtlamak için alınır. Yazışmalar yalnızca gereken süre ve geçerli yasal yükümlülükler kapsamında saklanır; erişim destekle ilgilenen kişilerle sınırlıdır. Gereksiz hassas bilgi göndermeyin. Silme talebini e-postayla iletebilirsiniz; zorunlu saklama varsa açıklanır. Kişisel bilgiler satılmaz, destek mesajları reklam amacıyla kullanılmaz.
 
-Moruk LLC · İletişim: [sport@moruk.co](mailto:sport@moruk.co)
+Oyun 13 yaş ve üzerindeki oyunculara yöneliktir;13 yaş altındaki çocukları hedeflemez. Bir çocuğun destek mesajında kişisel bilgi verdiğini düşünüyorsanız silinmesi için bize ulaşın. Veri uygulamaları değiştiğinde bu politika ve mağaza beyanları güncellenir.
+
+Moruk LLC · [sport@moruk.co](mailto:sport@moruk.co)
